@@ -12,7 +12,7 @@ function App() {
   const [listingId, setListingId] = useState('');
 
   
-  const contractAddress = "0xYOUR_CONTRACT_ADDRESS";
+  const contractAddress = "0x9D0C486c62D6d5A57367026F4af43B7Ffe12a8bd";
   const contractABI = [
     "function registerDevice(string memory metadata) public",
     "function listData(string memory dataHash, uint price) public",
